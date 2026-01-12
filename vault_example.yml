@@ -1,0 +1,44 @@
+# My default password for others
+default_passwd: PASSWORD
+
+redhat_username: USERNAME
+redhat_passwd: PASSWORD
+
+# Default Windows Server Credentials
+ddw_password: PASSWORD
+ddw_username: ec2-user
+
+# ServiceNow Credentials
+snow_url: https://ven???.service-now.com
+snow_username: service.ansible
+servicenow_passwd: default_passwd goes here
+
+# My Laptop key
+# Use an RSA key for this because AWS likes it
+ssh_priv_key: |
+ -----BEGIN RSA PRIVATE KEY-----
+ the indention is everthing on this
+ -----END RSA PRIVATE KEY-----
+
+dyna_key: 123456_my_secret_key_is_here
+
+# My vault password
+vault_passwd: PASSWORD
+
+red_hat_auto_hub_token: |
+ ZXNzIn0._kQ0Dit
+
+# My admin password Panos daily demo
+admin_password: PASSWORD
+
+# registry.redhat.io creds
+reg_rh_io_passwd: PASSWORD
+reg_rh_io_username: USER
+
+# quay.io creds
+quay_passwd: PASSWORD
+quay_username: USERNAME
+
+# Red Hat Customer portal creds
+customer_portal_username: Username
+customer_portal_password: PASSWORD
